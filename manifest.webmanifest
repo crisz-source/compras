@@ -1,0 +1,22 @@
+{
+  "name": "Lista de Compras",
+  "short_name": "Compras",
+  "description": "Organize seus produtos do mercado, lista, carrinho e salvos.",
+  "start_url": "./index2.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#10b981",
+  "background_color": "#0a0e1a",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["productivity", "shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
