@@ -1,9 +1,11 @@
-const CACHE = 'compras-v1';
+const CACHE = 'compras-v2';
 const ASSETS = [
   './',
   './index2.html',
   './manifest.webmanifest',
-  './icon.svg'
+  './icon.svg',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
