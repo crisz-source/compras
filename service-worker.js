@@ -1,7 +1,7 @@
-const CACHE = 'compras-v2';
+const CACHE = 'compras-v3';
 const ASSETS = [
   './',
-  './index2.html',
+  './index.html',
   './manifest.webmanifest',
   './icon.svg',
   './icon-192.png',
@@ -42,7 +42,7 @@ self.addEventListener('fetch', (event) => {
           return res;
         })
         .catch(() =>
-          caches.match(req).then((c) => c || caches.match('./index2.html'))
+          caches.match(req).then((c) => c || caches.match('./index.html'))
         )
     );
   } else {

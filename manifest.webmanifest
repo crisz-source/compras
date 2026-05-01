@@ -2,7 +2,7 @@
   "name": "Lista de Compras",
   "short_name": "Compras",
   "description": "Organize seus produtos do mercado, lista, carrinho e salvos.",
-  "start_url": "./index2.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
