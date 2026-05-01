@@ -74,12 +74,9 @@
     width: 48px;
     height: 48px;
     border-radius: 14px;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    box-shadow: 0 8px 24px var(--accent-glow);
+    object-fit: cover;
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.35);
+    flex-shrink: 0;
   }
   .hero h1 {
     font-size: clamp(17px, 4.5vw, 24px);
@@ -595,7 +592,7 @@
       padding-bottom: max(120px, env(safe-area-inset-bottom));
     }
     .hero { margin-bottom: 30px; }
-    .hero .logo { width: 56px; height: 56px; font-size: 28px; border-radius: 16px; }
+    .hero .logo { width: 56px; height: 56px; border-radius: 16px; }
     .card { padding: 28px; border-radius: 24px; }
   }
 
@@ -631,7 +628,7 @@
       padding-left: max(10px, env(safe-area-inset-left));
     }
     .hero { gap: 10px; margin-bottom: 18px; }
-    .hero .logo { width: 42px; height: 42px; font-size: 21px; border-radius: 12px; }
+    .hero .logo { width: 42px; height: 42px; border-radius: 12px; }
     .tab { font-size: 11.5px; padding: 9px 4px; gap: 3px; }
     .tab .badge { font-size: 10px; padding: 1px 5px; min-width: 18px; }
     .card { padding: 14px; border-radius: 16px; }
@@ -696,7 +693,7 @@
 
 <div class="app">
   <div class="hero">
-    <div class="logo">🛒</div>
+    <img class="logo" src="icon-192.png" alt="BoraComprar">
     <div>
       <h1>BoraComprar</h1>
       <div class="sub">Organize seus produtos do mercado</div>
