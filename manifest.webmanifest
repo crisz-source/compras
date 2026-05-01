@@ -1,6 +1,6 @@
 {
-  "name": "Lista de Compras",
-  "short_name": "Compras",
+  "name": "BoraComprar",
+  "short_name": "BoraComprar",
   "description": "Organize seus produtos do mercado, lista, carrinho e salvos.",
   "start_url": "./",
   "scope": "./",
@@ -35,11 +35,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
     }
   ]
 }

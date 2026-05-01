@@ -1,9 +1,8 @@
-const CACHE = 'compras-v3';
+const CACHE = 'compras-v4';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icon.svg',
   './icon-192.png',
   './icon-512.png'
 ];
